@@ -10,7 +10,6 @@ const COLORS = [
 
 class App {
   constructor() {
-    console.log("sex");
     this.canvas = document.createElement("canvas");
     document.body.appendChild(this.canvas);
     this.ctx = this.canvas.getContext("2d");
